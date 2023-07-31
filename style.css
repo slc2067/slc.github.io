@@ -92,6 +92,19 @@ main {
   border: 1px solid #ccc;
 }
 
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.image-container img {
+  max-width: 100%;
+  max-height: 400px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 footer {
   background-color: #333;
   color: white;
