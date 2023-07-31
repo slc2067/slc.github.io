@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color:silver;
+  color: darkgoldenrod;
+  text-align: center;
+  padding: 20px;
+  /* background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.IiERGlLWYN8e9rjeSG4cqQHaD5%26pid%3DApi&f=1&ipt=e25d504e3638cc13b1cbe0e7a913eac64f5f35416f0b96cc3e71257169a97c53&ipo=images);
+  background-repeat:repeat; */
+}
+
+.time, .date {
+  font-weight: bold;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+
+/* Style for the dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style for the button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style for the dropdown content (year buttons) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Style for the year buttons */
+.year-button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Style for the year buttons on hover */
+.year-button:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown content (year buttons) when the button is clicked */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.capstone {
+  background: purple;
+}
+
+.container {
+  display: flex;
+}
+.section {
+  flex: 1;
+  padding: 10%;
+  border: 1px solid #ccc;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
