@@ -92,6 +92,10 @@ main {
   border: 1px solid #ccc;
 }
 
+.info {
+  padding: 20px;
+}
+
 .image-container {
   display: flex;
   justify-content: center;
@@ -103,6 +107,10 @@ main {
   max-height: 400px;
   border: 1px solid #ccc;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.quote {
+  text-align: center;
 }
 
 footer {
